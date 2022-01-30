@@ -363,7 +363,7 @@ echo "</html>";
                          <th style='text-align:center;'>Name</th>
                          <th style='text-align:center;'>Age</th>
                          <th style='text-align:center;'>Status</th>
-                         <th colspan = '2' style='text-align: center;'>Action</th>
+                         <th colspan = '3' style='text-align: center;'>Action</th>
 
      </tr><br>";
 
@@ -379,6 +379,7 @@ echo "</html>";
         echo "<td>" . $diff->format('%y') . "</td>";
         echo "<td>" . $row['status'] . "</td>";
         echo "<td>" . '<a href="Edit.php?id=' . $row['user_details_id'] . '"><Button type="Submit" value="Edit" class="btn btn-primary" >Edit</Button></a>' . "</td>";
+        echo "<td>" . '<a href="View.php?id=' . $row['user_details_id'] . '"><Button type="Submit" value="View" class="btn btn-primary" >View</Button></a>' . "</td>";
         echo "<td>" . '<Button type="Submit" value=' . $row['user_details_id'] . ' class="btn btn-success" onClick="display_alert(this.value);">Delete</Button>' . "</td>";
         echo "</tr>";
         $i++;
@@ -423,7 +424,7 @@ echo "</html>";
                          <th style='text-align:center;'>Name</th>
                          <th style='text-align:center;'>Age</th>
                          <th style='text-align:center;'>Status</th>
-                         <th colspan = '2' style='text-align: center;'>Action</th>
+                         <th colspan = '3' style='text-align: center;'>Action</th>
 
      </tr>
 <?php
@@ -449,6 +450,7 @@ echo "</html>";
         echo "<td>" . $diff->format('%y') . "</td>";
         echo "<td>" . $row['status'] . "</td>";
         echo "<td>" . '<a href="Edit.php?id=' . $row['user_details_id'] . '"><Button type="Submit" value="Edit" class="btn btn-primary" >Edit</Button></a>' . "</td>";
+        echo "<td>" . '<a href="View.php?id=' . $row['user_details_id'] . '"><Button type="Submit" value="View" class="btn btn-primary" >View</Button></a>' . "</td>";
         echo "<td>" . '<Button type="Submit" value=' . $row['user_details_id'] . ' class="btn btn-success" onClick="display_alert(this.value);">Delete</Button>' . "</td>";
         echo "</tr>";
         $i++;
