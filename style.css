@@ -1,0 +1,125 @@
+#login_form {
+    background: pink;
+    max-width: 400px;
+    margin: 75px auto 16px;
+    padding: 40px 40px;
+    border-radius: 5px;
+    box-shadow: 17px 5px 5px #9ea2a3;
+}
+h1 {
+    text-align: center;
+}
+body {
+    font-family: Helvetica, san-serif;
+    background-color: #f0f0f0;
+}
+@media (max-width: 600px) {
+    body {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+    }
+    #login_form {
+        box-shadow: none;
+        margin: auto;
+    }
+}
+.heading {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.happ {
+    width: 400px;
+    height: 115px;
+    margin: 5px auto;
+    padding: 20px;
+    background: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.juu {
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: white;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, #fff 0 1px 0 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    min-width: 300px;
+}
+form p {}
+img {
+    width: 48px;
+    height: 40px;
+    border-radius: -20px;
+    float: left;
+}
+/* Style the close button */
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover {
+    background-color: red;
+    color: white;
+}
+/* Style the header */
+
+.header {
+    background-color: pink;
+    padding: 20px 30px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+/* Clear floats after the header */
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style the input */
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+/* Style the "Add" button */
+
+.addBtn {
+    padding: 8px;
+    width: 10%;
+    background: #d9d9d9;
+    color: red;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.addBtn:hover {
+    background-color: #bbb;
+}
